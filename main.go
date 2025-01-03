@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-const APITOKEN = "XoNwj52npMG8kAQZN0DP-vBC3tJ0Y0JuV1IRQ7oC"
+const APITOKEN = "XXXX"
 
 type Record struct {
 	LoginTime  string `json:"login_time"`
@@ -279,11 +279,11 @@ func overwriteDNSRecord(zoneID string, recordID string, name string, record stri
 
 func main() {
 	// 定义学号
-	userAccount := "22020007067"
+	userAccount := "XXX"
 	// 域名
-	domain := "daoxuan.cc"
+	domain := "XXX.com"
 	// 记录
-	subDomain := "ouc.daoxuan.cc"
+	subDomain := "XXX.XXX.com"
 
 	// 获取在线记录
 	body := fetchOnlineRecord(userAccount)
